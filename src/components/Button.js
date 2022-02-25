@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 import React from 'react';
 
 class Button extends React.Component {
