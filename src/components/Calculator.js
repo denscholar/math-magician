@@ -20,35 +20,35 @@ const Calculator = () => {
   }
 
   return (
-    <div className="container">
+    <div className="container-calc">
       <div className="calculator">
-        <div className="result">
+        <div className="result-calc">
           { output }
         </div>
-        <div className="calculator-buttons">
-          <Button value="AC" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="+/-" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="%" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="&divide;" className="btn orange" onClick={handleClick} calcObject={calculateValaue} />
+        <div className="calculator-cal">
+          <Button value="AC" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="+/-" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="%" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="&divide;" className="cal-btn orange" onClick={handleClick} calcObject={calculateValaue} />
 
-          <Button value="7" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="8" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="9" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="x" className="btn orange" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="7" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="8" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="9" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="x" className="cal-btn orange" onClick={handleClick} calcObject={calculateValaue} />
 
-          <Button value="4" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="5" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="6" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="-" className="btn orange" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="4" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="5" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="6" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="-" className="cal-btn orange" onClick={handleClick} calcObject={calculateValaue} />
 
-          <Button value="1" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="2" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="3" className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="+" className="btn orange" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="1" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="2" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="3" className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="+" className="cal-btn orange" onClick={handleClick} calcObject={calculateValaue} />
 
-          <Button value="0" className="btn span-3" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="." className="btn" onClick={handleClick} calcObject={calculateValaue} />
-          <Button value="=" className="btn orange" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="0" className="cal-btn span-3" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="." className="cal-btn" onClick={handleClick} calcObject={calculateValaue} />
+          <Button value="=" className="cal-btn orange" onClick={handleClick} calcObject={calculateValaue} />
         </div>
       </div>
     </div>
