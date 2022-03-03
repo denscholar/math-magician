@@ -1,0 +1,21 @@
+.logo {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: white;
+}
+
+.link-item {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 8px;
+}
+
+.link-item:hover {
+  color: white;
+}

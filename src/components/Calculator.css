@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-.calculator {
+.container-calc {
   max-width: 400px;
   background: #eee;
   margin: 100px auto;
   font-size: 25px;
 }
 
-.result {
+.result-calc {
   background: #858694;
   color: white;
   font-size: 2em;
@@ -21,16 +21,16 @@
   outline: none;
 }
 
-.calculator-buttons {
+.calculator-cal {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.btn {
-  height: 65px;
+.cal-btn {
+  height: 50px;
   outline: none;
   border: 1px solid #c9c8c8;
-  font-size: 30px;
+  font-size: 25px;
   background: #e0e0e0;
 }
 
